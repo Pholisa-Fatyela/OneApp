@@ -2,9 +2,17 @@
 <html>
 	<head>
 		<title>OneApp</title>
-		
+		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	<body>
+		<nav>
+			<ul>
+			  <li><a href="home.html">Home</a></li>
+			  </li>
+			  <li><a href="#">Contact</a></li>
+			  <li><a href="#">About</a></li>
+			</ul>
+		</nav>
 		<div id="add">
 			<h4>Create Account</h4>
 			<form action="partners/add" method="POST">
@@ -19,7 +27,7 @@
 				<br />
 				Email : <input type="email" name="email">
 				<br />
-				<input type="checkbox" name="userType" value="Student" checked> Student
+				<input type="checkbox" name="userType" value="Student"> Student
 		      	<br />
 		      	<input type="checkbox" name="userType" value="University"> University
 		      	<br />
